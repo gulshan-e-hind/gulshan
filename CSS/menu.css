@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(245, 189, 46);
+}
+
+.table-container th,
+.table-container td {
+    border: 1px dotted rgb(245, 189, 46);
+    padding: 8px;
+    text-align: left;
+}
+
+table {
+    border: none;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-color: rgb(194, 0, 0);
+    color: rgb(245, 189, 46);
+}
+
+tbody th {
+    text-shadow: 1cap;
+}
+
+.table-container table {
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.table-header {
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.table-content {
+    display: none;
+}
+
+
+.order{
+   background-color: rgb(194, 0, 0);
+   font-size: 20px;
+   align-items: center;
+   z-index: 1;
+   cursor: pointer;
+   margin-left: 35%;
+   margin-bottom: 3%;
+   border-style: none;
+   padding: 0.5%;
+}
+
+.order , a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(245, 189, 46);
+    text-align: center; 
+    font-size: larger;
+    font-weight: bold;
+}
+.order:hover,
+.order:hover a{
+    background-color: rgb(245, 189, 46);
+    transition-duration: 0.2s;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(194, 0, 0);
+    color: rgb(194, 0, 0);
+    font-style: italic;
+ }
+ 
+ .order:hover a{
+    transition-duration: 0.2s;
+    border-style: none;
+ }
+
+ @media (max-width: 600px) {
+    .order{
+        background-color: rgb(194, 0, 0);
+        font-size: 20px;
+        align-items: center;
+        z-index: 1;
+        cursor: pointer;
+        margin-left: 35%;
+        border-style: none;
+        padding: 1.8%;
+        margin-bottom: 3%;
+     }
+ }
